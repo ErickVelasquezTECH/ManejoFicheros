@@ -7,7 +7,7 @@ import java.nio.file.Path;
 public class Metadatos {
     public static void main(String[] args) throws IOException {
         Path ruta=Path.of("nota.txt");
-        //El nombre aunque no exista
+        //El nombre del ultimo componente, aunque no exista
         System.out.println("Nombre: "+ ruta.getFileName());
         //Si existe o no
         System.out.println("Existe: "+ Files.exists(ruta));
