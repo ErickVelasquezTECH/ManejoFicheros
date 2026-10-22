@@ -1,4 +1,4 @@
-package org.example.module02.apisNioIO;
+package org.example.module02.nio;
 
 
 import java.io.*;

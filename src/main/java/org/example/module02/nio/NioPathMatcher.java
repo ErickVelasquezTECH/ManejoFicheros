@@ -1,4 +1,4 @@
-package org.example.module02;
+package org.example.module02.nio;
 
 import java.nio.file.FileSystems;
 import java.nio.file.Path;
