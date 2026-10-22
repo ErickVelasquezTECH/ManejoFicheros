@@ -6,7 +6,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardOpenOption;
 
-public class NioStandardOpenOption {
+public class NIOStandardOpenOption {
     public static void main(String[] args) throws IOException {
         Path ruta=Path.of("prueba.txt");
 

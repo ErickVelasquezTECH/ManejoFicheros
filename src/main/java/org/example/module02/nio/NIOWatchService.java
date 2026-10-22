@@ -6,7 +6,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.WatchService;
 
-public class NioWatchService {
+public class NIOWatchService {
     public static void main(String[] args) throws IOException {
         Path directorio = Path.of("documentos");
         Files.createDirectories(directorio);

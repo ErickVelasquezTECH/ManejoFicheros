@@ -5,7 +5,7 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
-public class NioPathFiles {
+public class NIOPathFiles {
     public static void main(String[] args) throws IOException {
         Path fichero=Path.of("nota.txt");
 

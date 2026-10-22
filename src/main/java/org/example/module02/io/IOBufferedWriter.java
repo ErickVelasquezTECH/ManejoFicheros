@@ -1,13 +1,12 @@
 package org.example.module02.io;
 
 import java.io.BufferedWriter;
-import java.io.File;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
-public class IoBufferedWriter {
+public class IOBufferedWriter {
     public static void main(String[] args) throws IOException {
         try (BufferedWriter escritor = Files.newBufferedWriter(
                 Path.of("nota.txt"),

@@ -6,7 +6,7 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
-public class IoBufferedReader {
+public class IOBufferedReader {
     public static void main(String[] args) throws IOException {
         try (BufferedReader lector = Files.newBufferedReader(
                 Path.of("nota.txt"),

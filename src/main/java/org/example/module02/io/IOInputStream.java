@@ -3,7 +3,7 @@ package org.example.module02.io;
 import java.io.FileInputStream;
 import java.io.IOException;
 
-public class IoInputStream {
+public class IOInputStream {
     public static void main(String[] args) throws IOException {
         try (FileInputStream entrada =
                      new FileInputStream("DonOsvaldo.jpg")) {

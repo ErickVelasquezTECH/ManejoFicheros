@@ -4,7 +4,7 @@ import java.nio.file.FileSystems;
 import java.nio.file.Path;
 import java.nio.file.PathMatcher;
 
-public class NioPathMatcher {
+public class NIOPathMatcher {
     public static void main(String[] args) {
         PathMatcher matcher= FileSystems.getDefault()
                 .getPathMatcher("glob:*.txt");

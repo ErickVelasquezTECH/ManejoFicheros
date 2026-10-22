@@ -3,7 +3,7 @@ package org.example.module02.io;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-public class IoOutputStream {
+public class IOOutputStream {
     public static void main(String[] args) throws IOException {
         try (FileOutputStream salida =
                      new FileOutputStream("datos.bin")) {
