@@ -2,7 +2,7 @@ package org.example.module02.io;
 
 import java.io.File;
 
-public class IOFiles {
+public class IOFile {
     public static void main(String[] args) {
         File fichero = new File("nota.txt");
 
