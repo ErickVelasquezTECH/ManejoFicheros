@@ -9,6 +9,8 @@ public class IOFile {
         if (fichero.exists()) {
             System.out.println(fichero.getName());
             System.out.println(fichero.length());
+            System.out.println(fichero.getParent()); //Devuelve un String
+            System.out.println(fichero.getParentFile()); //Devuelve un File
         }
     }
 }
